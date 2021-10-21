@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+         <tr><th>MONTH</th>
+         <th>Savings</th></tr>
+        </thead>
+        <tbody>
+        <tbody>
+            <tr>
+            <td>JAN</td>
+            <td>$100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td>FEB</td>
+            <td>$200</td></tr>
+        </tfoot>
+
+        
+    </table>
+<p>
+   <table border="4" bordercolor="green">
+       <tr>
+           <td rowspan="2">Table 1</td>
+           <td>Table 1</td>
+       </tr>
+       <tr>
+           <td>
+               <table border="4" bordercolor="blue">
+                <tr><td>Table 2</td>
+                    <td>Table 2</td></tr>
+                <tr><td>Table 2</td>
+                    <td>Table 2</td></tr>
+               </table>
+            </td>
+        </tr>
+            <tr>
+                <td>Table 1</td>
+                <td>Table 1</td> 
+            </tr>
+           
+    </table>
+</p>
+<p>
+    <table border="3" cellpadding="2" > <!-- gap in cell data and cell border-->
+        <thead>
+            <tr>
+                <th>Header column 1</th>
+                <th>Header column 2</th>
+                <th>Header column 3</th>
+                <th>Header column 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 2: Item 1</td>
+                <td>Row 2: Item 2</td>
+                <th rowspan="2">Row 2: Nested Table 1
+                    <table cellpadding="3" border="2" bgcolor="lightblue">
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <th>Row 3 Header</th>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                </th>
+                <td>Row 2: Item 4</td>
+
+            </tr>
+            <tr>
+                <th>Row 3: Nested Table 2
+                    <table cellpadding="5" border="2" bgcolor="yellow">
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                </th>
+                <td>Row 3: Item 2</td>
+                <td rowspan="2">Row 3: Item 3</td>
+            </tr>
+            <tr>
+                <td>Row 4: Item 1</td>
+                <td>Row 4: Item 2</td>
+                <td>Row 4: Item 3</td>
+            </tr>
+            <tr>
+                <td colspan="4">Row 5: Last row of outer table</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+</p>
+
+</body>
+</html>
