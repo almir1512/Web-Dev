@@ -1,0 +1,30 @@
+body{
+    background-color: #E4CDA7;
+    text-align: center;
+}
+h1{
+  position:relative;
+  font-family: 'DM Serif Display', serif;
+  font-size: 7.5rem;
+  letter-spacing: 7px;
+  word-spacing:15px;
+}
+h2{
+  display: inline;
+}
+table{
+  margin:8% auto 0 auto ;
+
+}
+i{
+  padding-left:20px;
+  font-size:5rem;
+}
+.creator{
+  margin-top: 5%;
+  font-family: 'Roboto Mono', monospace;
+}
+.dice-img{
+  margin:20px;
+  display: block;
+}
