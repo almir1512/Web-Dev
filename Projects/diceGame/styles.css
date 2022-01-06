@@ -8,6 +8,7 @@ h1{
   font-size: 7.5rem;
   letter-spacing: 7px;
   word-spacing:15px;
+  text-shadow: 4px 0 #a00b0b;
 }
 h2{
   display: inline;
