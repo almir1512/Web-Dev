@@ -15,7 +15,9 @@ footer {
   color: #DBEDF3;
   font-family: sans-serif;
 }
-
+a{
+  color: black;
+}
 .w {
 background-image: url('images/crash.png')
 

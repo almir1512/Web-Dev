@@ -23,7 +23,12 @@ $(".btn").click(function(){
 
   checkAns(userClickedpattern.length-1); // we need to pass index
  });
-  
+
+ $("i").click(function(){
+   window.location("https://github.com/almir1512");
+ }
+
+
 function checkAns(currentlevel){
 
 if(gamePattern[currentlevel]===userClickedpattern[currentlevel])
