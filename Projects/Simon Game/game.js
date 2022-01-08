@@ -23,6 +23,7 @@ $(".btn").click(function(){
 
   checkAns(userClickedpattern.length-1); // we need to pass index
  });
+  
 function checkAns(currentlevel){
 
 if(gamePattern[currentlevel]===userClickedpattern[currentlevel])
