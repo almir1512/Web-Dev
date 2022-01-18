@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "This is intro to node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Almir Noori",
+  "license": "ISC",
+  "dependencies": {
+    "animals": "^0.0.3",
+    "indian-cities-database": "^1.0.5",
+    "superheroes": "^3.0.0"
+  }
+}

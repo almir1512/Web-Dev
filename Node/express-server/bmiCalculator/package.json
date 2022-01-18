@@ -1,0 +1,15 @@
+{
+  "name": "bmicalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bmiCalci.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "almir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "nodeman": "^1.1.2"
+  }
+}

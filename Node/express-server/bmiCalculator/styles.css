@@ -1,0 +1,26 @@
+body{
+  background-color: #4FBDBA;
+  text-align: center;
+}
+h1{
+font-family: 'Mochiy Pop P One', sans-serif;
+}
+.myclass {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #072227;
+    width: 200px;
+    height: 80px;
+
+}
+input[type=text]
+{
+    color: #979797;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+        background-image: url('http://i.stack.imgur.com/pbpVI.png');
+    background-repeat: repeat-x;
+    border:1px solid #777;
+    border-radius:5px
+}
