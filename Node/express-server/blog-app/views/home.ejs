@@ -1,0 +1,13 @@
+
+<%- include("partials/header");  %>   <%# layout %>
+
+<h1>home</h1>
+<p>  <%= homeC %> </p>   <%# Templating %>
+
+<% posts.forEach(function(post){   %>   <%# Scriplet tags %>
+<h1><%=   post.title  %></h1>   <%# Templating %>
+<%=   post.text.substring(0 , 100)+" ... " %>
+<a href="/posts/<%=post.title%>">Read more</a>
+<%  })   %>
+
+<%- include("partials/footer");  %>  <%# layout %>
